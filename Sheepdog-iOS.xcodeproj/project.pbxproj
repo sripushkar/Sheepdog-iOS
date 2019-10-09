@@ -3,25 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F56DE539BE1D202ED52A5EB /* Pods_Sheepdog_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50117CC6EFE5224B3092E658 /* Pods_Sheepdog_iOS.framework */; };
+		FAA82868234CFB2300608543 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA82867234CFB2300608543 /* Extensions.swift */; };
+		FAA8286A234DCDCD00608543 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA82869234DCDCD00608543 /* SignUpController.swift */; };
+		FAA8286C234DCF2B00608543 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8286B234DCF2B00608543 /* HomeController.swift */; };
 		FAAE84D5234B81E6000A93D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE84D4234B81E6000A93D2 /* AppDelegate.swift */; };
-		FAAE84D7234B81E6000A93D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE84D6234B81E6000A93D2 /* ViewController.swift */; };
+		FAAE84D7234B81E6000A93D2 /* LaunchpageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE84D6234B81E6000A93D2 /* LaunchpageController.swift */; };
 		FAAE84DA234B81E6000A93D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAE84D8234B81E6000A93D2 /* Main.storyboard */; };
 		FAAE84DC234B81E7000A93D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAE84DB234B81E7000A93D2 /* Assets.xcassets */; };
 		FAAE84DF234B81E7000A93D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAE84DD234B81E7000A93D2 /* LaunchScreen.storyboard */; };
+		FAE3F504234CE3F800D66CF9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAE3F503234CE3F800D66CF9 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0153AEFC93709180D7F95133 /* Pods-Sheepdog-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sheepdog-iOS.release.xcconfig"; path = "Target Support Files/Pods-Sheepdog-iOS/Pods-Sheepdog-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		27CBF3696C960F8051E9D0B1 /* Pods-Sheepdog-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sheepdog-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Sheepdog-iOS/Pods-Sheepdog-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		50117CC6EFE5224B3092E658 /* Pods_Sheepdog_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sheepdog_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA82867234CFB2300608543 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FAA82869234DCDCD00608543 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		FAA8286B234DCF2B00608543 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		FAAE84D1234B81E6000A93D2 /* Sheepdog-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sheepdog-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAE84D4234B81E6000A93D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAAE84D6234B81E6000A93D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAAE84D6234B81E6000A93D2 /* LaunchpageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchpageController.swift; sourceTree = "<group>"; };
 		FAAE84D9234B81E6000A93D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAAE84DB234B81E7000A93D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAAE84DE234B81E7000A93D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAAE84E0234B81E7000A93D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE3F503234CE3F800D66CF9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F56DE539BE1D202ED52A5EB /* Pods_Sheepdog_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B48599CFA415FF9404E6F42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50117CC6EFE5224B3092E658 /* Pods_Sheepdog_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		410F7968FFE88D8FF339C517 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27CBF3696C960F8051E9D0B1 /* Pods-Sheepdog-iOS.debug.xcconfig */,
+				0153AEFC93709180D7F95133 /* Pods-Sheepdog-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FAAE84C8234B81E6000A93D2 = {
 			isa = PBXGroup;
 			children = (
 				FAAE84D3234B81E6000A93D2 /* Sheepdog-iOS */,
 				FAAE84D2234B81E6000A93D2 /* Products */,
+				410F7968FFE88D8FF339C517 /* Pods */,
+				2B48599CFA415FF9404E6F42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +87,15 @@
 			isa = PBXGroup;
 			children = (
 				FAAE84D4234B81E6000A93D2 /* AppDelegate.swift */,
-				FAAE84D6234B81E6000A93D2 /* ViewController.swift */,
+				FAAE84D6234B81E6000A93D2 /* LaunchpageController.swift */,
+				FAA8286B234DCF2B00608543 /* HomeController.swift */,
+				FAA82869234DCDCD00608543 /* SignUpController.swift */,
 				FAAE84D8234B81E6000A93D2 /* Main.storyboard */,
+				FAA82867234CFB2300608543 /* Extensions.swift */,
 				FAAE84DB234B81E7000A93D2 /* Assets.xcassets */,
 				FAAE84DD234B81E7000A93D2 /* LaunchScreen.storyboard */,
 				FAAE84E0234B81E7000A93D2 /* Info.plist */,
+				FAE3F503234CE3F800D66CF9 /* GoogleService-Info.plist */,
 			);
 			path = "Sheepdog-iOS";
 			sourceTree = "<group>";
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAAE84E3234B81E7000A93D2 /* Build configuration list for PBXNativeTarget "Sheepdog-iOS" */;
 			buildPhases = (
+				13C46DAEF7B45B9DC88EB609 /* [CP] Check Pods Manifest.lock */,
 				FAAE84CD234B81E6000A93D2 /* Sources */,
 				FAAE84CE234B81E6000A93D2 /* Frameworks */,
 				FAAE84CF234B81E6000A93D2 /* Resources */,
+				F4BBAC1D2DBEAF018F17662D /* [CP] Embed Pods Frameworks */,
+				ADAF7B825ADB441DB19BCD18 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAAE84DF234B81E7000A93D2 /* LaunchScreen.storyboard in Resources */,
+				FAE3F504234CE3F800D66CF9 /* GoogleService-Info.plist in Resources */,
 				FAAE84DC234B81E7000A93D2 /* Assets.xcassets in Resources */,
 				FAAE84DA234B81E6000A93D2 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +170,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13C46DAEF7B45B9DC88EB609 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sheepdog-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADAF7B825ADB441DB19BCD18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sheepdog-iOS/Pods-Sheepdog-iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sheepdog-iOS/Pods-Sheepdog-iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sheepdog-iOS/Pods-Sheepdog-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4BBAC1D2DBEAF018F17662D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sheepdog-iOS/Pods-Sheepdog-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sheepdog-iOS/Pods-Sheepdog-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sheepdog-iOS/Pods-Sheepdog-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAAE84CD234B81E6000A93D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAAE84D7234B81E6000A93D2 /* ViewController.swift in Sources */,
+				FAAE84D7234B81E6000A93D2 /* LaunchpageController.swift in Sources */,
+				FAA82868234CFB2300608543 /* Extensions.swift in Sources */,
 				FAAE84D5234B81E6000A93D2 /* AppDelegate.swift in Sources */,
+				FAA8286A234DCDCD00608543 /* SignUpController.swift in Sources */,
+				FAA8286C234DCF2B00608543 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +382,7 @@
 		};
 		FAAE84E4234B81E7000A93D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27CBF3696C960F8051E9D0B1 /* Pods-Sheepdog-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +401,7 @@
 		};
 		FAAE84E5234B81E7000A93D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0153AEFC93709180D7F95133 /* Pods-Sheepdog-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
