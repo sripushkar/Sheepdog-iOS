@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                      didFinishLaunchingWithOptions launchOptions:
         [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
+        
         window = UIWindow()
         window?.makeKeyAndVisible()
         let navController = UINavigationController(rootViewController: LaunchpageController())

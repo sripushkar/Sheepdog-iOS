@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8F56DE539BE1D202ED52A5EB /* Pods_Sheepdog_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50117CC6EFE5224B3092E658 /* Pods_Sheepdog_iOS.framework */; };
+		FA22C9432352CCC5003820BD /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22C9422352CCC5003820BD /* SignUpController.swift */; };
+		FA8F8B89234E3A2F00F64883 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = FA8F8B88234E3A2F00F64883 /* Fonts */; };
 		FAA82868234CFB2300608543 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA82867234CFB2300608543 /* Extensions.swift */; };
-		FAA8286A234DCDCD00608543 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA82869234DCDCD00608543 /* SignUpController.swift */; };
 		FAA8286C234DCF2B00608543 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8286B234DCF2B00608543 /* HomeController.swift */; };
 		FAAE84D5234B81E6000A93D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE84D4234B81E6000A93D2 /* AppDelegate.swift */; };
 		FAAE84D7234B81E6000A93D2 /* LaunchpageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE84D6234B81E6000A93D2 /* LaunchpageController.swift */; };
@@ -23,8 +24,9 @@
 		0153AEFC93709180D7F95133 /* Pods-Sheepdog-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sheepdog-iOS.release.xcconfig"; path = "Target Support Files/Pods-Sheepdog-iOS/Pods-Sheepdog-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		27CBF3696C960F8051E9D0B1 /* Pods-Sheepdog-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sheepdog-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Sheepdog-iOS/Pods-Sheepdog-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		50117CC6EFE5224B3092E658 /* Pods_Sheepdog_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sheepdog_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA22C9422352CCC5003820BD /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		FA8F8B88234E3A2F00F64883 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = SOURCE_ROOT; };
 		FAA82867234CFB2300608543 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		FAA82869234DCDCD00608543 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		FAA8286B234DCF2B00608543 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		FAAE84D1234B81E6000A93D2 /* Sheepdog-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sheepdog-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAE84D4234B81E6000A93D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,10 +88,11 @@
 		FAAE84D3234B81E6000A93D2 /* Sheepdog-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				FA8F8B88234E3A2F00F64883 /* Fonts */,
 				FAAE84D4234B81E6000A93D2 /* AppDelegate.swift */,
 				FAAE84D6234B81E6000A93D2 /* LaunchpageController.swift */,
+				FA22C9422352CCC5003820BD /* SignUpController.swift */,
 				FAA8286B234DCF2B00608543 /* HomeController.swift */,
-				FAA82869234DCDCD00608543 /* SignUpController.swift */,
 				FAAE84D8234B81E6000A93D2 /* Main.storyboard */,
 				FAA82867234CFB2300608543 /* Extensions.swift */,
 				FAAE84DB234B81E7000A93D2 /* Assets.xcassets */,
@@ -161,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8F8B89234E3A2F00F64883 /* Fonts in Resources */,
 				FAAE84DF234B81E7000A93D2 /* LaunchScreen.storyboard in Resources */,
 				FAE3F504234CE3F800D66CF9 /* GoogleService-Info.plist in Resources */,
 				FAAE84DC234B81E7000A93D2 /* Assets.xcassets in Resources */,
@@ -234,10 +238,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA22C9432352CCC5003820BD /* SignUpController.swift in Sources */,
 				FAAE84D7234B81E6000A93D2 /* LaunchpageController.swift in Sources */,
 				FAA82868234CFB2300608543 /* Extensions.swift in Sources */,
 				FAAE84D5234B81E6000A93D2 /* AppDelegate.swift in Sources */,
-				FAA8286A234DCDCD00608543 /* SignUpController.swift in Sources */,
 				FAA8286C234DCF2B00608543 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
