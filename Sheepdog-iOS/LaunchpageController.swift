@@ -44,11 +44,10 @@ class LaunchpageController: UIViewController {
     let loginButton: UIButton = {
         let button = UIButton(type: .custom)
         button.setTitle("LOG IN", for: .normal)
-        button.titleLabel?.font = UIFont.init(name: "Lato-Regular", size: 18)
         button.backgroundColor = UIColor.blue
         button.setTitleColor(.white, for: .normal)
         button.addTarget(self, action: #selector(handleLogin), for: .touchUpInside)
-        button.layer.cornerRadius = 8
+        button.layer.cornerRadius = 5
         return button
     }()
     

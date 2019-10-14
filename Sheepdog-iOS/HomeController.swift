@@ -19,7 +19,8 @@ class HomeController: UIViewController{
     }
     
     func configureViewComponents(){
-        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "065 Burning Spring.png")!)
+        navigationController?.navigationBar.isHidden = true
     }
     
 }
