@@ -55,7 +55,7 @@ class SignUpController: UIViewController{
         button.setTitle("SIGN UP", for: .normal)
         button.backgroundColor = UIColor.blue
         button.setTitleColor(.white, for: .normal)
-        button.addTarget(self, action: #selector(handleShowLogin), for: .touchUpInside)
+        button.addTarget(self, action: #selector(handleSignUp), for: .touchUpInside)
         button.layer.cornerRadius = 5
         return button
     }()
@@ -91,7 +91,7 @@ class SignUpController: UIViewController{
     let dontHaveAccountButton: UIButton = {
         let button = UIButton(type: .system)
         let attributedTitle = NSMutableAttributedString(string: "Already have an account?  ", attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
-        attributedTitle.append(NSAttributedString(string: "Sign In", attributes: [NSAttributedString.Key.foregroundColor: UIColor.white]))
+        attributedTitle.append(NSAttributedString(string: "Sign In", attributes: [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 16), NSAttributedString.Key.foregroundColor: UIColor.white]))
         button.setAttributedTitle(attributedTitle, for: .normal)
         button.addTarget(self, action: #selector(handleShowLogin), for: .touchUpInside)
         return button
@@ -118,6 +118,7 @@ class SignUpController: UIViewController{
         guard let username = usernameTextField.text else {return}
         
         createUser(withEmail: email, password: password, username: username)
+        
     }
 
     
