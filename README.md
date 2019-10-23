@@ -4,3 +4,4 @@ As such, the program will include incentives to award these people for serving t
 * Create a Sheepdog award for students who exemplify the characteristics of a Sheepdog (heroic acts, helping another student, serving others, etc..) 
 * Promote the Sheepdog of the Year scholarship
 * Sheepdog Scamper & Sprint Road Race
+![](https://i.imgur.com/iW1wHHj.png)
